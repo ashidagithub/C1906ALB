@@ -28,3 +28,7 @@ class Hero():
     def show_story(self):
         print('\n英雄的故事：xxxxxxxx')
         return
+
+    def show_history(self):
+        print('\n史实中的英雄：其实他没那么厉害。。。。')
+        return

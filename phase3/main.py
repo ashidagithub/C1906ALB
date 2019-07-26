@@ -24,3 +24,4 @@ cjsh.ab_difficulty = random.randint(1,100)
 
 cjsh.show_story()
 cjsh.show_presentation()
+cjsh.show_history()
