@@ -17,3 +17,6 @@ cjsh.show_presentation()
 
 pg = Hero('破晓之神','盘古','战士WARROR')
 pg.show_presentation()
+
+nobody = Hero('','','')
+nobody.show_presentation()

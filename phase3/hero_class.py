@@ -26,14 +26,14 @@ class Hero():
             self.ab_effect = random.randint(1, 100)
             self.ab_difficulty = random.randint(1, 100)
         else:
-            alias = '英雄的别名'
-            name = '英雄的姓名'
-            position = '英雄的定位'
+            self.alias = '英雄的别名'
+            self.name = '英雄的姓名'
+            self.position = '英雄的定位'
 
-            ab_viability = 0
-            ab_damage = 0
-            ab_effect = 0
-            ab_difficulty = 0
+            self.ab_viability = 0
+            self.ab_damage = 0
+            self.ab_effect = 0
+            self.ab_difficulty = 0
         return
 
     def show_presentation(self):
