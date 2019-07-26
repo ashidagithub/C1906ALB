@@ -1,0 +1,20 @@
+# -*- coding: UTF-8 -*-
+
+# ------------------------(max to 80 columns)-----------------------------------
+# author by : （学员ID)
+# created:  2019.7.10
+
+# Description:
+#   学习类的使用方法
+# ------------------------(max to 80 columns)-----------------------------------
+
+from my_02_class import Person, Chinese
+
+print('------ cutting line ------')
+man = Person()
+man.talk()
+
+print('------ cutting line ------')
+Chinese_man = Chinese()
+Chinese_man.talk()  # 使用父类的方法
+Chinese_man.walk()  # 使用子类（自己）的方法
