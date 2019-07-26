@@ -8,13 +8,20 @@
 #   学习类的使用方法
 # ------------------------(max to 80 columns)-----------------------------------
 
-from my_02_class import Person, Chinese
+import random
 
-print('------ cutting line ------')
-man = Person()
-man.talk()
+from hero_class import Hero
 
-print('------ cutting line ------')
-Chinese_man = Chinese()
-Chinese_man.talk()  # 使用父类的方法
-Chinese_man.walk()  # 使用子类（自己）的方法
+cjsh = Hero()
+
+cjsh.alias = '苍狼末裔'
+cjsh.name = '成吉思汗'
+cjsh.position = '射手ARCHER'
+cjsh.ab_viability = random.randint(1,100)
+cjsh.ab_damage  = random.randint(1,100)
+cjsh.ab_effect = random.randint(1,100)
+cjsh.ab_difficulty = random.randint(1,100)
+
+cjsh.show_story()
+cjsh.show_presentation()
+cjsh.show_history()
