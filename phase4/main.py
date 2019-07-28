@@ -8,7 +8,7 @@
 #   学习类的使用方法
 # ------------------------(max to 80 columns)-----------------------------------
 
-from persion_chinese import Person, Chinese
+from person_chinese import Person, Chinese
 
 print('------ cutting line ------')
 man = Person()

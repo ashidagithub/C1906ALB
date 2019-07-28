@@ -10,7 +10,7 @@
 
 
 # 父类
-class Person(object):  # 定义一个父类
+class Person():  # 定义一个父类
     '''父类 - 人 '''
 
     def talk(self):  # 父类中的方法

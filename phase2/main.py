@@ -14,7 +14,7 @@ from hero_class import Hero
 
 cjsh = Hero()
 
-cjsh.alias = '苍狼末裔'
+cjsh.skin = '苍狼末裔'
 cjsh.name = '成吉思汗'
 cjsh.position = '射手ARCHER'
 cjsh.ab_viability = random.randint(1,100)

@@ -13,20 +13,20 @@ import random
 
 class Hero():
 
-    def __init__(self, a, n, p):
+    def __init__(self, s, n, p):
         ''' 初始化函数 '''
 
-        if len(a) > 0 and len(n) > 0 and len(p) > 0:
-            self.alias = a
-            self.name = n
-            self.position = p
+        if len(s) > 0 and len(n) > 0 and len(p) > 0:
+            self.skin = s       # skin
+            self.name = n       # name
+            self.position = p   # position
 
             self.ab_viability = random.randint(1, 100)
             self.ab_damage = random.randint(1, 100)
             self.ab_effect = random.randint(1, 100)
             self.ab_difficulty = random.randint(1, 100)
         else:
-            self.alias = '英雄的别名'
+            self.skin = '英雄的皮肤'
             self.name = '英雄的姓名'
             self.position = '英雄的定位'
 
@@ -38,7 +38,7 @@ class Hero():
 
     def show_presentation(self):
         print('\n英雄的介绍：')
-        print('英雄是 %s - %s ，定位是 %s' % (self.alias, self.name, self.position))
+        print('英雄是 %s - %s ，定位是 %s' % (self.skin, self.name, self.position))
         print('生存能力=[%d]，攻击伤害=[%d]，技能效果=[%d]，上手难度=[%d]' % (
             self.ab_viability, self.ab_damage, self.ab_effect, self.ab_difficulty))
         return

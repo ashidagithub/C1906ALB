@@ -10,7 +10,7 @@
 
 
 class Hero():
-    alias = '英雄的别名'
+    skin = '英雄的原始皮肤'
     name = '英雄的姓名'
     position = '英雄的定位'
 
