@@ -17,7 +17,6 @@ class Person():  # 定义一个父类
         print("person is walking....")
         return
 
-
 class Chinese(Person):  # 定义一个子类， 继承Person类
     '''子类 - 中国人 '''
 
