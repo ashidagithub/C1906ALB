@@ -36,7 +36,7 @@ class Hero():
             self.ab_difficulty = 0
         return
 
-    def show_presentation(self):
+    def show_me(self):
         print('\n英雄的介绍：')
         print('英雄是 %s - %s ，定位是 %s' % (self.skin, self.name, self.position))
         print('生存能力=[%d]，攻击伤害=[%d]，技能效果=[%d]，上手难度=[%d]' % (

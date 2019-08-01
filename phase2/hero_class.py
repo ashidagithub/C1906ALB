@@ -19,7 +19,7 @@ class Hero():
     ab_effect = 0
     ab_difficulty = 0
 
-    def show_presentation(self):
+    def show_me(self):
         print('\n英雄的介绍：xxxxxxxx')
         print('\n生存能力=[%d]，攻击伤害=[%d]，技能效果=[%d]，上手难度=[%d]' % (
             self.ab_viability, self.ab_damage, self.ab_effect, self.ab_difficulty))

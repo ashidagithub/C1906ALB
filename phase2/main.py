@@ -23,5 +23,5 @@ cjsh.ab_effect = random.randint(1,100)
 cjsh.ab_difficulty = random.randint(1,100)
 
 cjsh.show_story()
-cjsh.show_presentation()
+cjsh.show_me()
 cjsh.show_history()
