@@ -10,7 +10,7 @@
 
 import random
 
-from hero_class import Hero
+from class_hero import Hero
 
 cjsh = Hero()
 

@@ -23,3 +23,6 @@ else:
 
 me.work()
 me.study()
+
+# read private property
+print(me.__bank_account)
